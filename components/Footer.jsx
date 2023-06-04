@@ -34,7 +34,7 @@ const Footer = () => (
         <h4 className="font-extrabold text-[24px] text-white">
         Metaverse
         </h4>
-        <p className="font-normal text-[16px] text-white opacity-90">
+        <p className="font-normal text-[16px] sm:text-[26px] text-white opacity-90">
         | UI/UX Dev <br/>
           Nextjs,Reactjs,TailwindCSS,MaterialUI,Bootstrap,HTML,CSS,JS<br/>
           Contact me (tahashareef98@gmail.com)
@@ -45,7 +45,7 @@ const Footer = () => (
           key={socials.name}
           src={socials.url}
           alt={socials.name}
-          className="w-[24px] h-[24px] object-contain cursor-pointer"
+          className="w-[24px] h-[24px] min-w-[20px] min-h-[20px] object-contain cursor-pointer"
           
           />
         ))}
